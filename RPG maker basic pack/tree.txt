@@ -18,6 +18,8 @@ if you copy two trees into one you dont need to rewrite everything just paste on
 those are only the basic of the tree posibilities
 you can use looping by containing for exaple 5 options into section x and section x into those five options (so after few loops the history path can look like: x\a\x\e\x\a\x\g\x\e)
 ,
+for solo games this program also can be used
+,
 in fact this program is to simplyfy and fasten the paper RPG making proces but its far from perfect
 PS.: sorry for my english im still learning
 ,
