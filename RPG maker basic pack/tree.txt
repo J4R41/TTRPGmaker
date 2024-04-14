@@ -1,0 +1,67 @@
+comment lines:
+,
+all first lines that dont have tabs before the text are ignored by the program
+the last line that have no tabs is name of the tree
+every next node needs to have one or more tabs
+if two nodes have the same name (text) they are one node (for example the node A have two "children" "1" and "2" and two parents)
+,
+in the node RPG i showed how the RPG tree can look like
+,
+the game leader can acces the tree while playing to make the fabular side easier by simply:
+having fast acces to all the rules and items names
+or by having the list of situations that can accure, and the leader can just roll a dice which situation will accure in this moment for players
+,
+before first sesion of the game begins, playars can also add things to the tree so the loor of the game will be more adaptable to players wants and needs
+if you copy two trees into one you dont need to rewrite everything just paste one under another and the program will conect sections that have the same name
+(for exaple it will conect two seperate sections named "items" made by two diferent players) so the leader doesnt need to search weard paths trough the tree "if there are more section like this"
+,
+those are only the basic of the tree posibilities
+you can use looping by containing for exaple 5 options into section x and section x into those five options (so after few loops the history path can look like: x\a\x\e\x\a\x\g\x\e)
+,
+in fact this program is to simplyfy and fasten the paper RPG making proces but its far from perfect
+PS.: sorry for my english im still learning
+,
+end of the comment lines is before the tree name
+the tree:
+Name of the tree
+    first node
+        first subnode of the first node
+            subnode of subnode
+                subnode of subnode of...
+        second subnode of the first node
+            subnode x
+    second node
+        first subnode of the second node
+            A
+                1
+        second subnode of the second node
+            A
+                2
+    RPG
+        players characters
+            stats
+                inteligence
+                stamina
+                ...
+            race
+                Elf
+                Terranin
+                AI
+                ...
+        items
+            armor
+                ...
+            weapons
+            ...
+        places
+            middle earth
+            mars
+            north see
+            space ship
+        situations
+            you find a new unknown empty home
+            you found an chest with 5 items
+            you found an chest with 2 items
+            someone attacts you
+                dark elfs
+                ...
